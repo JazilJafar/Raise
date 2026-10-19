@@ -3,9 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+.abel-regular {
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     color: white;
-    background: linear-gradient(#ddd0d0 0%,#d52c2c 100%);
+    background: linear-gradient(#ddd0d0 0%,#d45050 100%);
 }
 header{
     display: flex;
@@ -18,11 +25,60 @@ header img{
     margin-left: 20px;
     margin-top: 20px;
 }
+header nav{
+    margin-right: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+.aboreto-regular {
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 21px;
+}
+header button{
+    background: #ce5050;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 20px;
+   border-radius: 30px;
+}
+header button:hover{
+    background: #a94242;
+}
 .hero{
     height: 90vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 .hero img{
     width: 600px;
     height: 500px;
     overflow: hidden;
+    object-fit: cover;
+    margin-right: 60px;
+    border-radius: 60px;
+    margin-top: 40px;
+}
+.hero h1 {
+    margin-left: 80px;
+    color: white;
+    font-size: 40px;
+    margin-top:100px;
+    font-family: "Abel", sans-serif;
+}
+.hero p{
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+    margin-left: 87px;
+    font-family: "Aboreto", system-ui;
 }
