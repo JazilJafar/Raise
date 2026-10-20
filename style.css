@@ -316,3 +316,51 @@ header button:hover{
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+@media (max-width: 1200px) {
+    .imgs img{
+        width: 150px;
+        height: 150px;
+    }
+   .img1{
+    position: absolute;
+    top: 700px;
+    left: 20px;
+    border: 10px solid white;
+    transform: rotateZ(-10deg);
+}
+.img2{
+    position: absolute;
+    top: 870px;
+    left: 20px;
+    border: 10px solid white;
+    transform: rotateZ(-10deg);
+}
+.img3{
+    position: absolute;
+    top: 1050px;
+    left: 20px;
+    border: 10px solid white;
+    transform: rotateZ(-10deg);
+}
+.img4{
+    position: absolute;
+    top: 700px;
+    right: 20px;
+    border: 10px solid white;
+    transform: rotateZ(-10deg);
+}
+.img5{
+    position: absolute;
+    top: 870px;
+    right: 20px;
+    border: 10px solid white;
+    transform: rotateZ(-10deg);
+}
+.img6{
+    position: absolute;
+    top: 1050px;
+    right: 20px;
+    transform: rotateZ(-10deg);
+    border: 10px solid white;
+}
+}
