@@ -421,3 +421,66 @@ header button:hover{
     display: flex; 
     justify-content: space-between;
 }
+.feedbacks{
+    background: linear-gradient(180 deg, #aa807f, #ffffff);
+    height: 100vh;
+    text-align: center;
+}
+.feedbacks > img{
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    top: 2100px;
+    left: -10px;
+    transform: rotateZ(-40deg);
+}
+.feedbacks h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: "Abel", sans-serif;
+    background: linear-gradient(90deg, #e01313, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.feedbacks p{
+    font-family: "Aboreto", system-ui;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.feedbacks .eventforms img {
+    width: 100px;
+    height: 100px;
+}
+.feedbacks form h3{
+    font-family: "Abel", sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.feedbacks .eventforms img{
+    width: 320px;
+    height: 120px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.feedbacks .eventforms label{
+    font-family: "Abel", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.feedbacks .eventforms input{
+    width: 300px;
+    border: none;
+    border-radius: 17px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.feedbacks .eventforms button{
+    background: #d22929;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 20px;
+}
