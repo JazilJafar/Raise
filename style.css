@@ -364,3 +364,60 @@ header button:hover{
     border: 10px solid white;
 }
 }
+.events{
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180 deg, #d37978, #ffffff);
+    text-align: center;
+}
+.events h1.msthead{
+    font-family: "abel", sans-serif;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.abcd p{
+    font-family: "Aboreto", system-ui;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.vote-card h1{
+    font-family: "Abel", sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.votecard-texts{
+    display: flex;
+    justify-content: space-between;
+    border: 6px solid white;
+    width: 54%;
+    position: absolute;
+    left: 25%;
+    right: 0%;
+    margin-top: 40px;
+}
+.votecard-texts h2{
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.vote-card ul{
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.votecard-texts p{
+    font-family: "Aboreto", system-ui;
+    font-size: 15px;
+}
+.votecard-texts img{
+    width: 250px;
+    height: 200px;
+}
+.votecard-texts ul{
+    list-style: none;
+    color: white;
+    display: flex; 
+    justify-content: space-between;
+}
