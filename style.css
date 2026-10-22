@@ -1,15 +1,27 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+.abeezee-regular {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abeezee-regular-italic {
+  font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 .abel-regular {
   font-family: "Abel", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     color: white;
     background: linear-gradient(#ddd0d0 0%,#d45050 100%);
@@ -30,7 +42,6 @@ header img{
 header nav{
     margin-right: 20px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 .aboreto-regular {
   font-family: "Aboreto", system-ui;
   font-weight: 400;
@@ -488,4 +499,43 @@ header button:hover{
     transform: scale(1.3);
     transition: all 0.3s ease-in-out;
     background: #df1414;
+}
+.shop{
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+.shop h1{
+    font-family: "ABeeZee", sans-serif;
+}
+.shop > p{
+    font-family: "Aboreto", system-ui;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.cardshop{
+    overflow: hidden;
+    width: 70%;
+    text-align: center;
+}
+.shopcard{
+     margin-left: 400px;
+}
+.shopcard > img{
+    width: 250px;
+    height: 100px;
+}
+.itemcard{
+    position: absolute;
+    left: 500px;
+    margin-top: 40px;
+}
+.cardshop h2{
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    margin-left: 400px;
+}
+.cardshop > p{
+    margin-left: 380px;
 }
