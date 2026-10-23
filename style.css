@@ -530,3 +530,47 @@ header button:hover{
     width: auto;
     height: 150px;
 }
+.itemimg img{
+    width: auto;
+    height: 200px;
+}
+.itemcard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 60px;
+    background: linear-gradient(180deg, #d37978, #ffffff);
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+.itemcard:nth-child(1){
+    padding-bottom: 60px;
+}
+.shopvote img{
+    width: 25px;
+    height: 25px;
+}
+.cartcontent h4{
+    font-family: "Abel", sans-serif;
+    font-size: 25px;
+    margin-left: 3px;
+}
+.cartcontent p{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-right: 220px;
+    margin-top: 20px;
+}
+.shopvote button{
+    background: rgb(207, 100, 88);
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 70px;
+    gap: 10px;
+}
+.shopvote button:nth-child(1){
+    position: absolute;
+    left: 790px;
+}
