@@ -1,0 +1,1 @@
+const upvotebtn = document.getElementById("upvoteone");

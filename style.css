@@ -378,7 +378,6 @@ header button:hover{
 .events{
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(180 deg, #d37978, #ffffff);
     text-align: center;
 }
 .events h1.msthead{
@@ -573,4 +572,40 @@ header button:hover{
 .shopvote button:nth-child(1){
     position: absolute;
     left: 790px;
+}
+footer{
+    Font-family: "Abel", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background: rgb(58, 57, 57);
+    padding: 10px;
+}
+footer img{
+    width: auto;
+    height: 70px;
+    margin-left: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.abcd img{
+    width: auto;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+}
+.events{
+    background: linear-gradient(180deg, #d92e0c, #676161),rgba(206, 191, 188, 0.9), url(./assets/footer.webp);
+    background-size: cover;
+    background-position: center;
 }
