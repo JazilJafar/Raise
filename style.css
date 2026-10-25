@@ -619,3 +619,50 @@ footer p{
     transition: all 0.3s ease-in-out;
     background: #a94242;
 }
+.imgrotate{
+    width: 200px;
+    height: 200px;
+    perspective: 800px;
+    margin: 50px auto;
+    display: block;
+}
+.imgcontainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 12s linear infinite;
+}
+.imgcontainer:hover {
+    animation-play-state: paused;
+}
+.face{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #30363d;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #0d1117;
+}
+.face img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+    scale: 1.38 !important; 
+}
+.front  { transform: rotateY(0deg) translateZ(100px) !important; }
+.back   { transform: rotateY(180deg) translateZ(100px) !important; }
+.right  { transform: rotateY(90deg) translateZ(100px) !important; }
+.left   { transform: rotateY(-90deg) translateZ(100px) !important; }
+.top    { transform: rotateX(90deg) translateZ(100px) !important; }
+.bottom { transform: rotateX(-90deg) translateZ(100px) !important; }
+@keyframes spin {
+    0% {
+        transform: rotateX(-20deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-20deg) rotateY(360deg);
+    }
+}
