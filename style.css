@@ -609,3 +609,13 @@ footer p{
     background-size: cover;
     background-position: center;
 }
+.voting p{
+    font-family: "Aboreto", system-ui;
+    font-size: 20px;
+    display:none;
+}
+.login:hover{
+    scale: 1.2;
+    transition: all 0.3s ease-in-out;
+    background: #a94242;
+}
