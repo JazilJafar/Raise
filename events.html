@@ -10,7 +10,85 @@
     </head>
     <body>
         <header>
-            
+            <img src="./assets/hackclub.png" alt="hack clubs logo"/>
+            <nav class="navlinks">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="events.html">Events</a>
+                <a href="#event">Vote Events</a>
+                <a href="vote.html">Shop Suggestion</a>
+                <a href="feedback.html">Feedback</a>
+            </nav>
+           <a href="login.html"><button class="login">Login With HC</button></a>
         </header>
+        <section class="eventheader">
+            <h1>You can See All Events Here..</h1>
+            <p>Hack club has rich verity of events for their teens and this web page will showcase that events</p>
+        </section>
+        <section class="eventinfo">
+            <h2 id="herotitle">
+                Your Next project<br>Starts <span>hero.</span>
+            </h2>
+            <a class="primarybtn" href="#programs">
+                Explaore Programs <span aria-hidden="true">&rarr;</span>
+            </a>
+        </section>
+        <section class="explore" id="programs" >
+            <div class="exphead">
+                <div>
+                    <p class="eyebrow">The directory</p>
+                    <h2 id="exptitle">Explore YSWS</h2>
+                    <p class="secdesc">Find a program that is right for your minds</p>
+                </div>
+                <p class="programcount" id="programcoun">
+                    <!-- Programs will appear here -->
+                </p>
+            </div>
+            <form class="searchform" id="searchform" role="search">
+                <label class="visuallyhid" for="search">SEARCH ysws</label>
+                <input type="search" id="srinput" name="search" placeholder="Enter keyword about you YSWS or names" autocomplete="off">
+                <button type="submit">Search</button>
+            </form>
+            <div class="filteringysws">
+                <label for="categfilter">Category</label>
+                <select id="categoryfilter" name="category">
+                    <option value="all">All Programs</option>
+                    <option value="Hardware">Hardware</option>
+                    <option value="web">Web development</option>
+                    <option value="ai">AI and python based</option>
+                    <option value="design">Design like CAD</option>
+                    <option value="game">Game Development</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="resulhead">
+                <h3>Available programs</h3>
+                <span id="resultstatus">
+                   Waiting for program data...
+                </span>
+            </div>
+            <div class="proggrid" id="programgrid">
+                <article class="emptyst">
+                    <div class="emptystimg"></div>
+                    <h3>Your next program</h3>
+                    <p>
+                     Program will here
+                    </p>
+                </article>
+            </div>
+            <noscript>
+                <p>Enable JS Bro</p>
+            </noscript>
+        </section>
+        <footer class="eventfooter">
+            <a class="brand" href="index.html">
+                <span>raise<span class="branddot">.</span></span>
+            </a>
+            <p>
+                By teens for teens. Made with ❤️ by Hack Clubbers
+            </p>
+            <a href="https://hackclub.com/" target="_blank" rel="noopener noreferrer">Visit Hack Club &ararr;</a>
+        </footer>
+        <script src="./eventsc.js"></script>
     </body>
 </html>
